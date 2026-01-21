@@ -16,7 +16,7 @@ try {
 
     // ⚠️ ضع بريدك وكلمة مرور التطبيق
     $mail->Username = 'noun1234567@gmail.com';
-    $mail->Password = 'APP_PASSWORD_HERE';
+    $mail->Password = 'wpvs ewpl dytg gmor';
 
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
