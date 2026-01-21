@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>اختبار اللغة العربية</title>
+</head>
+
+<body dir="rtl" style="font-family:'Segoe UI', Arial; background:#f4f6f8;">
+
+<form action="send.php" method="post"
+style="max-width:800px; margin:30px auto; background:white;
+border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.08); overflow:hidden;">
+
+    <div style="background:#2c3e50; color:white; padding:20px; text-align:center;">
+        <h1>اختبار مادة اللغة العربية</h1>
+        <p>قواعد النحو – الفاعل</p>
+    </div>
+
+    <div style="padding:25px;">
+        <label><strong>اسم الطالب:</strong></label><br>
+        <input type="text" name="student_name" required
+        style="width:100%; padding:10px; margin-top:10px;">
+    </div>
+
+    <div style="padding:25px; border-top:1px solid #eee;">
+        <p><strong>1️⃣ حدد الفاعل في الجملة:</strong><br>
+        "أثنى المعلّمُ على الطالبِ المجتهدِ"</p>
+
+        <label><input type="radio" name="q1" value="الطالبِ" required> الطالبِ</label><br>
+        <label><input type="radio" name="q1" value="المعلّمُ"> المعلّمُ</label><br>
+        <label><input type="radio" name="q1" value="المجتهدِ"> المجتهدِ</label><br>
+        <label><input type="radio" name="q1" value="ضمير مستتر"> ضمير مستتر</label>
+    </div>
+
+    <div style="padding:25px; border-top:1px solid #eee;">
+        <p><strong>2️⃣ ما علامة إعراب الفاعل في الجملة:</strong><br>
+        "يشاركُ المتسابقانِ في المحفلِ"؟</p>
+
+        <label><input type="radio" name="q2" value="الضمة المقدرة" required> الضمة المقدرة</label><br>
+        <label><input type="radio" name="q2" value="الألف لأنه مثنى"> الألف (لأنه مثنى)</label><br>
+        <label><input type="radio" name="q2" value="ثبوت النون"> ثبوت النون</label><br>
+        <label><input type="radio" name="q2" value="الياء"> الياء</label>
+    </div>
+
+    <div style="padding:25px; text-align:center; background:#f1f2f6;">
+        <button type="submit"
+        style="background:#27ae60; color:white; border:none;
+        padding:15px 30px; font-size:18px; border-radius:10px;">
+        📤 إرسال الإجابات
+        </button>
+    </div>
+
+</form>
+
+</body>
+</html>
